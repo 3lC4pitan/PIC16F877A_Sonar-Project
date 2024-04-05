@@ -30,11 +30,11 @@ void initialize() {
     TRISB = 0x00;
 
     // Initialize servo motor control
-    // (Implementation depends on your specific hardware and servo motor)
 }
 
 // Function to read distance from ultrasonic sensor
 uint16_t readDistance() {
+    //TODO:
     // Implement code to trigger ultrasonic sensor and measure distance
     // Return distance in millimeters
 }
@@ -75,9 +75,8 @@ int main() {
 
     while (1) {
         // Rotate servo motor to scan
-        // (Implementation depends on your specific hardware and servo motor)
-
         // Read distance from ultrasonic sensor
+
         uint16_t distance = readDistance();
 
         // Indicate distance using LEDs and buzzer
